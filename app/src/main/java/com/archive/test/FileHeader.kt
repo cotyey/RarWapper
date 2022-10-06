@@ -1,5 +1,13 @@
 package com.archive.test
 
-import java.util.*
+import java.util.Date
 
-data class FileHeader(val fileName: String, val isDirectory: Boolean, val size: Long, val lastModifiedDate: Date, val isEncrypted: Boolean)
+data class FileHeader(
+        var fileName: String?,
+        val isDirectory: Boolean,
+        val unpSize: Long,
+        val packedSize: Long,
+        val itemIndex: Int,
+        val MTime: Date?,
+        val isEncrypted: Boolean
+    )
