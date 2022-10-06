@@ -11,6 +11,6 @@ allprojects {
 
 ````
 dependencies {
-    implementation 'com.github.cotyey:RarWapper:1.0.0'
+    implementation 'com.github.cotyey:RarWapper:1.0.1'
 }
 ````
